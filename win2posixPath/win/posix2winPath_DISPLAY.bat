@@ -20,7 +20,7 @@ set logEnabled=false
 
 
 if %logEnabled%==true (
-	echo # Start path convertion:
+	echo # Start path conversion:
 )
 
 
@@ -29,7 +29,7 @@ call _win2posixPath_Utils.bat %reverzedConversion% %displayResults% %setToClipbo
 
 
 if %logEnabled%==true (
-	echo # Finshed path convertion.
+	echo # Finshed path conversion.
 
 	:: END
 	pause
